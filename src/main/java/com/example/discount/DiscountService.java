@@ -1,4 +1,4 @@
-```java
+java
 package com.example.discount;
 
 public class DiscountService {
@@ -19,4 +19,3 @@ public class DiscountService {
         return price >= 1000;
     }
 }
-```
