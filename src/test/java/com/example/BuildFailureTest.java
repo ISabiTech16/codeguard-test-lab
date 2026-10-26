@@ -15,6 +15,6 @@ class BuildFailureTest {
         double discountedPrice =
                 price - (price * discountPercent / 100.0);
 
-        // Correct assertion: assertEquals(discountedPrice, 80.0, "Discount calculation");
+assertEquals(discountedPrice, 80.0, "Discount calculation");
     }
 }
