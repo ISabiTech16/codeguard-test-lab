@@ -1,4 +1,4 @@
-```java
+java
 package com.example.discount;
 
 import org.junit.jupiter.api.Test;
@@ -36,4 +36,3 @@ class DiscountServiceTest {
         assertFalse(service.isEligibleForDiscount(999.0));
     }
 }
-```
