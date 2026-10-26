@@ -15,6 +15,6 @@ class BuildFailureTest {
         double discountedPrice =
                 price - (price * discountPercent / 100.0);
 
-assertEquals(discountedPrice, 80.0, "Discount calculation");
+assertEquals(2, 1, "CodeGuard build-failure test");
     }
 }
