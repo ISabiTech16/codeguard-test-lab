@@ -9,6 +9,10 @@ import static org.mockito.Mockito.when;
 
 class MockIsolationTest {
 
+    interface DiscountService {
+        int calculate(int price, int discount);
+    }
+
     @Test
     void mockedServiceReturnsConfiguredValue() {
         DiscountService service = mock(DiscountService.class);
